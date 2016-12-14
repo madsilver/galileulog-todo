@@ -34,7 +34,12 @@ class Todo
      * @ORM\Column(name="category", type="string", length=255)
      */
     private $category;
-
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="priority", type="string", length=255)
+     */
+    private $priority;
     /**
      * @var string
      *
@@ -113,6 +118,30 @@ class Todo
     public function getCategory()
     {
         return $this->category;
+    }
+
+    /**
+     * Set priority
+     *
+     * @param string $priority
+     *
+     * @return Todo
+     */
+    public function setPriority($priority)
+    {
+        $this->priority = $priority;
+
+        return $this;
+    }
+
+    /**
+     * Get category
+     *
+     * @return string
+     */
+    public function getPriority()
+    {
+        return $this->priority;
     }
 
     /**
