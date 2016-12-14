@@ -1,8 +1,7 @@
 # galileulog-todo
 Todo list utilizando symphony php
 
-## Composer
-### Utilize o comando abaixo para instalar as dependências do projeto
+## Composer (dependências)
 composer install
 
 ## Estrutura da base ded dados
