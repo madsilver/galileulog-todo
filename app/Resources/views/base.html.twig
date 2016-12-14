@@ -40,7 +40,9 @@
 </nav>
 
 <div class="container">
-
+    {% for flash_message in app.session.flashbag.get('notice') %}
+        {{ flash_message }}
+    {% endfor %}
     <div class="row">
         <div class="col-nd-12">
             {% block body %}{% endblock %}
