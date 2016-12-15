@@ -1,13 +1,13 @@
 # galileulog-todo
-Todo list utilizando symphony php
+Aplicação no padrão MVC utilizando symphony, doctrine e mysql
+
+## Demo
 http://galileutodo.herokuapp.com/
 
 ## Composer (dependências)
 composer install
 
 ## Estrutura da base de dados
-
-CREATE DATABASE `galileu`;
 CREATE TABLE `todo` ( 
 `id` int(11) NOT NULL AUTO_INCREMENT, 
 `name` varchar(255) DEFAULT NULL, 
