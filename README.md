@@ -1,6 +1,6 @@
 # galileulog-todo
 Todo list utilizando symphony php
-https://galileutodo.herokuapp.com/
+http://galileutodo.herokuapp.com/
 
 ## Composer (dependências)
 composer install
